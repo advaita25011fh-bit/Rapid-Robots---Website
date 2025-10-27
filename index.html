@@ -16,6 +16,7 @@
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#about">About Us</a></li>
+        <li><a href="#team">Team</a></li>
         <li><a href="#robots">Robots</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -33,15 +34,53 @@
     <p>We are <strong>Team 10477 Rapid Robots</strong>, consisting of 10 members in grades 7–8. We have been competing and building amazing robots for <strong>10 years</strong> in the FIRST Tech Challenge program. Our goal is to learn, collaborate, and push the boundaries of STEM innovation!</p>
   </section>
 
+  <section id="team" class="team">
+    <h2>Meet Our Team</h2>
+    <div class="team-container">
+      <div class="team-member"><h3>Member 1</h3><p>Grade 7</p></div>
+      <div class="team-member"><h3>Member 2</h3><p>Grade 7</p></div>
+      <div class="team-member"><h3>Member 3</h3><p>Grade 7</p></div>
+      <div class="team-member"><h3>Member 4</h3><p>Grade 7</p></div>
+      <div class="team-member"><h3>Member 5</h3><p>Grade 8</p></div>
+      <div class="team-member"><h3>Member 6</h3><p>Grade 8</p></div>
+      <div class="team-member"><h3>Member 7</h3><p>Grade 8</p></div>
+      <div class="team-member"><h3>Member 8</h3><p>Grade 8</p></div>
+      <div class="team-member"><h3>Member 9</h3><p>Grade 8</p></div>
+      <div class="team-member"><h3>Member 10</h3><p>Grade 8</p></div>
+    </div>
+  </section>
+
   <section id="robots" class="robots">
     <h2>Our Robots</h2>
-    <p>Coming soon! Stay tuned for photos and descriptions of our competition robots.</p>
+    <div class="robots-container">
+      <div class="robot-card">
+        <img src="robot1.png" alt="Robot 1" />
+        <h3>Robot 1</h3>
+        <p>Designed for [competition/year]. Specializes in [task].</p>
+      </div>
+      <div class="robot-card">
+        <img src="robot2.png" alt="Robot 2" />
+        <h3>Robot 2</h3>
+        <p>Designed for [competition/year]. Specializes in [task].</p>
+      </div>
+    </div>
   </section>
 
   <section id="contact" class="contact">
     <h2>Contact Us</h2>
-    <p>Email: rapidrobots10477@example.com</p>
-    <p>Follow us on social media: [Instagram/Twitter links]</p>
+    <p>Email: <a href="mailto:rapidrobots10477@example.com">rapidrobots10477@example.com</a></p>
+    <p>Follow us on social media:</p>
+    <div class="social-links">
+      <a href="https://instagram.com/yourteam" target="_blank">Instagram</a> |
+      <a href="https://twitter.com/yourteam" target="_blank">Twitter</a>
+    </div>
+
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
   </section>
 
   <footer>
