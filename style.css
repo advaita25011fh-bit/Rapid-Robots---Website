@@ -15,23 +15,19 @@ header {
   position: sticky;
   top: 0;
 }
-
 header .logo img { width: 80px; margin-bottom: 10px; }
 header nav ul { list-style: none; padding: 0; margin: 10px 0 0; }
 header nav ul li { display: inline-block; margin: 0 15px; }
 header nav ul li a { color: #fdf6e3; text-decoration: none; font-weight: bold; }
 
 /* Hero */
-.hero {
-  padding: 100px 20px;
-  text-align: center;
-}
+.hero { padding: 100px 20px; text-align: center; }
 .hero h2 { font-size: 2.8rem; margin-bottom: 10px; }
 .hero p { font-size: 1.3rem; margin-bottom: 20px; }
 .hero-button {
   display: inline-block;
   padding: 12px 25px;
-  background: #f2c94c; /* soft yellow accent */
+  background: #f2c94c;
   color: #08163a;
   text-decoration: none;
   font-weight: bold;
