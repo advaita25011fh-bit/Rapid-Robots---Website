@@ -1,4 +1,4 @@
-// Simple contact form handler (can be expanded with email service)
+// Contact form submission alert
 const form = document.getElementById('contact-form');
 form.addEventListener('submit', function(e) {
   e.preventDefault();
